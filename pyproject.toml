@@ -3,8 +3,8 @@ testpaths = [
     "tests"
 ]
 markers = [
-    "e2e: marks tests as end to end (deselect with '-m \"not e2e\"')",
-    "integration: marks tests as integration (deselect with '-m \"not integration\"')",
+    "getters: marks tests as end to end (deselect with '-m \"not getters\"')",
+    "create: marks tests as integration (deselect with '-m \"not create\"')",
 ]
 log_cli = true
 log_cli_level = "CRITICAL"
